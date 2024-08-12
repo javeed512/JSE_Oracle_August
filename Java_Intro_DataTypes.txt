@@ -1,0 +1,118 @@
+JAVA:
+-----
+
+JSE: Java Standard Edition (Core Java)
+We can develop standalone / desktop applications
+Ex: MS Office , Paint, Clock , Calendar , VS CODE IDE
+
+JEE: Java Enterprise Edition (Advance Java)
+Using JEE we can develop Web Applications and Enterprise Applications.
+Ex: Any websites like Amazon ,flipkart ,facebook, google
+
+JME: Java Micro/Mobile Edition
+Using this we can develop mobile applications 
+Note: Alternate for JME is Android
+
+
+Java Naming Convections for Identifiers :
+========================================
+
+package: lower case
+--------------------
+
+pack1 , demo , mypackage , com.oracle, com.demo
+
+syn:-   domain.company.project.module.submodule;
+
+	com.oracle.estore.login.userlogin;
+
+Package is nothing but just like a folder in Java
+
+Java Packages: 
+ 
+java.lang.*;  // default package
+java.util.*;
+java.io.*;
+
+
+class/interface: initcap
+-------------------------
+
+ Demo , Student , Employee , BankAccount , StudentEntity 
+
+
+construtor:  same as classname
+-------------------------------
+Initcap
+
+Demo() ,  Student() ,  BankAccount() ............
+
+
+
+methods/variables:  camel-case
+-------------------------------
+
+ account , accountNumber , studentName , salary$ , eid 
+
+ get() , set() , getStudentDetails() 
+
+
+final variables:
+--------------- 
+ 
+Block Letters
+
+  PI = 3.141 , IFSC = "HDFC1234",  PIN_CODE = 500020, TOKEN_NUMBER
+
+
+
+IN Java Naming Convections we can use numbers and  ( _ , $ )
+
+Ex:  account  , account123   //valid 
+	123account   // invalid
+
+
+Primitive Data types in java:
+-------------------------------
+names         size           default values       Wrapper classes
+-------------------------------------------------------------------
+byte --->    1 byte            0                   Byte
+short--->    2 bytes	       0	           Short
+char --->    2 bytes           single space        Character
+  
+int ---->     4 bytes            0                 Integer
+long  ---->   8 bytes            0                 Long
+
+float   -----> 4bytes          0.0f                Float
+double  -----> 8bytes          0.0                 Double
+
+boolean   --->  true/false      false              Boolean
+
+
+
+
+Non-Primitive / Reference Data Types:
+-------------------------------------
+
+
+Any Class Type or Interface Type is known as Non-Primitive Data types or  Reference Type.
+
+
+Demo  d;  // d is reference variable or non-primitive variable
+
+
+String  s1;
+
+
+Object  obj;
+
+
+
+Note: Default value for all non-primitive data types is null.
+
+
+
+
+
+
+
