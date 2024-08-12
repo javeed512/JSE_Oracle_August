@@ -1,0 +1,22 @@
+
+
+Types of variables in Java:
+----------------------------
+1. Local variables
+2. Instance variables
+3. static variables
+
+Local variables:
+----------------
+A variable declare inside any block or methods or constructor or their parameters are consider as 
+local variables.
+Local variable values cannot be initialize by JVM , its our reponsibility to initialize values.
+
+Instance variables:
+---------------------
+Variables declare inside class outside all the methods or blocks  without static keyword.
+Instance variables memory will be allocated inside Heap memory by JVM and also JVM will initialize default values to instance variables.
+In Java  a seperate copy of instance variable will be assign to every indiviual objects.
+
+Instance variables , can be access using class object or reference. That's why instance variables also known as object-level variables.
+

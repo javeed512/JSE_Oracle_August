@@ -27,6 +27,12 @@ public class Variables {
 
 
                     System.out.println("Hello "+s1);
+
+
+                float  f = 500.99F;
+
+                    System.out.println("f value "+f);
+
             
         }
 

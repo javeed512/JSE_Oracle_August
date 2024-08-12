@@ -1,0 +1,152 @@
+Control Structures:
+====================
+
+if-else:
+It is used to execute statements based on condition , if condition is true then if block executes  if  not else block executes.
+
+if(true ||  5>3 ||  isValid() ){
+
+ stmt1;
+
+}
+
+else{
+
+
+	stmt2;
+
+}
+
+
+
+Switch Case:
+============
+Mostly it is used  in application where we need to give customer to choose any option from the menu list.
+
+
+switch(choice){
+
+	case 1:
+
+	   stmt1;
+	break;  // important to break flow and avoid next case execution
+	case 2:
+	break;
+
+	default:
+		break;	
+
+
+}
+Note: switch case values can be either integer or string or char values.
+
+
+
+java.util.*;
+Scanner class:
+
+    next(); // read one word at a time
+   nextLine(); // read one line at a time
+
+   nextInt(); // read string data from keyboard and convert that into pure integer value.
+   nextXX(); 
+	
+Ex: nextFloat() , nextDouble() , nextLong() ...........	
+
+
+"1234" --->  1234
+
+"4.555"   ----> nextDouble()  ---> 4.555
+
+
+
+
+  Arrays:
+-----------
+
+50 Employees
+
+
+int eid1;
+int eid2;
+int eid3;
+::::::
+:::::
+int eid50;
+
+Arrays are collection type in Java which can store similar types of elements.
+Arrays use indexes concept to refer individual elements.
+In Java every array will have a predefined property known as "length"  , which gives you size/length of any array.
+
+Note: Array can be declare for premitive as well as for non-premitive data types.
+
+syn1:  int  a1[] = {10,20,30,40,50};  // size of array is 5
+
+syn2:  int  a2[] = new int[4];   // size of array is 4
+  	
+	a2[0] = 100;
+	a2[1] = 200;
+
+
+For Loop:
+It is used when we know the count of elements to iterate.
+
+for(int i=0; i < a1.length; i++){
+
+	System.out.println(a1[i]);
+
+}
+
+
+For Each Loop or Enhance For Loop:
+-----------------------------------
+
+It is used to print or read elements from any collections in Java like Arrays,List,ArrayList,Set etc.
+
+for(int x: collectionName){
+
+
+	System.out.println(x);
+
+}
+
+
+
+While Loop:
+------------
+It is used to iterate elements when we dont know exact count of elements but we have some condition to check elements exists.
+
+Ex: we can read data from File or Database or Collections
+while(condition){   // when ever condition is false while loop breaks automatic
+
+
+
+
+}
+
+
+------------------------------------
+
+do-while loop:
+===============
+If we want some logics to be executed atleast once irrespective of condition then we can use do-while.
+
+We use do-while in authentication and validations also.
+
+
+do{
+
+// logic which always executes
+
+
+}while(condition);
+
+
+
+
+
+
+
+
+
+
