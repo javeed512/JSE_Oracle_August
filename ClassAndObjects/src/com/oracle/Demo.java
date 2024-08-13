@@ -1,11 +1,15 @@
 package com.oracle;
 
 import java.lang.*;
+import java.lang.Object;
+import java.lang.String;
 
-public class Demo extends Object {
+import static  java.lang.System.out;
 
-	int id;
-	String name;
+public class Demo extends Object {// inheritance or IS-A Relationship
+
+	private int id;
+	private String name;
 
 	public Demo() {
 
@@ -58,7 +62,7 @@ public class Demo extends Object {
 			//String s2 = (String)  obj;
 		
 		System.out.println("Hello Friends");
-		System.out.println(d1.id +" "+d1.name);
+		out.println(d1.id +" "+d1.name);
 		
 	}
 
