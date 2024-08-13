@@ -1,0 +1,17 @@
+
+public class  Object{
+
+
+	String toString();  // hashcode in hexadecimal format with classname
+
+	boolean equals();  // it compares to object references or hashcodes
+
+		finalize();
+		getClass();
+		wait();
+		notify();
+		notifyAll(;
+		clone();
+		
+
+}
