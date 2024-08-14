@@ -1,0 +1,98 @@
+Object Oriented Programming Concepts(OOPs):
+===========================================
+1.Class and Object
+2.Inheritance (IS A Relationship)
+3.Polymorphism(static and dynamic)
+4.Encapsulation (data hiding)
+5. Abstraction  (interfaces and abstract class)
+
+
+Inheritance:
+A class extends another class to access all its properties or business logics  for the sake of code reusability in java.
+
+class A extends Object {  // Object class is default parent for all java classes
+
+
+}
+
+class B extends A {  // valid
+
+
+}
+
+class B extends A,D {  // invalid multiple inheritance is not possible for classes
+
+}
+
+
+----------------------------------------------------------------------------
+
+Polymorphism:
+--------------
+A single entity or any java component having multiple-forms or behaviours known as polymorphism.
+
+1. static or compile time polymorphism
+2. dynamic or runtime polymorphism.
+
+static or compile time polymorphism:
+------------------------------------
+Compile Time polymorphism to place during compilation time and it does not depends on inheritance.
+Ex: Overloading.
+method overloading , constructor overloading , operator overloading.
+
+
+ dynamic or runtime polymorphism
+==================================
+It depends on inheritance and takes place at runtime only.
+
+Ex1: method overriding 
+Ex2: super/parent  class reference variable holding  any of its child class object.
+Ex3:  Interface ref var holding implementation class object
+
+Encapsulation: 
+-------------
+Binding Data or data members in a single unit is known as Encapsulation.
+Ex: class , package , objects
+
+Abstraction:
+------------
+Highlighting set  of services and hiding implementation code that is known as Abstraction
+
+Abstraction = interface  + abstract class or concrete class (implementation class)
+
+Interface:
+----------
+Any medium to communicate is consider as interface.
+
+End User: Interface nothing but set of services consume by customer/user and provided by 
+service provider.
+
+Developer: Interface is nothing but set of services he/she needs to implement.
+ 
+Interface  consider as specification or requirement for the developer.
+
+Interface in Java:
+------------------
+In java interface is nothing but pure abstract class.
+It is created using interface keyword.
+It does not have any constructor and cannot  create objects for it.
+It can have only abstract methods (methods without body/definition)
+
+Note: In java interface can have multiple as well as multi-level inheritance.
+
+
+Abstract class:
+----------------
+Abstract class is a Java class for which objects cannot be created/instantiated.
+Abstract class can have abstract as well as non-abstract methods.
+
+Implementation class:
+-----------------------
+Any java class which implements , any interface abstract methods known as implementation class.
+It can be abstract or non-abstract as well.
+
+
+
+
+
+
