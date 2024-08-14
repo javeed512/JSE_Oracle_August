@@ -1,0 +1,73 @@
+
+String API:
+------------
+String is a class in Java which provides set of methods to deal with string data.
+String is a final class , no body can extends it.
+String is Immutable in nature (cannot be changed or modify)
+
+String is nothing but sequence of characters
+
+In c-lang string is represented as char[] = {'h','e','l','l','o'};
+
+syn1:-        String name = "king";
+syn2:-         String city = new String("Banglore");
+
+String methods are:
+
+equals(): it compares to string values
+toString(): it prints string self value and also it convert any object into string format
+
+concat()
+toUpperCase()
+toLowerCase()
+
+==========================================================
+
+ StringBuffer ---> Thread safe , we cannot use it for multi threading
+
+ StringBuilder --> Not Thread safe , we can use it for multi threading
+
+Both are Mutable in Nature , we can modify them.
+
+
+
+
+
+
+final keyword:
+
+final int  X = 100;
+
+	X = 200;//invalid
+
+final class A {
+
+ public final void m1(){
+
+	}
+
+}
+
+
+class B extends A{ // invalid bcz final class cannot be inherited
+
+ public void m1(){  // invalid
+
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
