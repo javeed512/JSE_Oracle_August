@@ -12,6 +12,11 @@ public class LambdaExpDemo {
 				
 				System.out.println("Result : "+result);
 				
+				
+				MyInterface.methodOne();
+				
+				mi.methodTwo();
+				
 		
 	}
 
